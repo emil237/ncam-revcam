@@ -8,7 +8,7 @@ version=2.0
 OPKGINSTALL=opkg install --force-reinstall
 MY_URL="https://raw.githubusercontent.com/emil237/ncam-revcam/main"
 
-MY_IPK_NCAM_REVCAM="enigma2-plugin-softcams-ncam-revcamV2_12.2_all.ipk"
+MY_IPK_NCAM_REVCAM="enigma2-plugin-softcams-revcam-ncam_13.5-r0_all.ipk"
 ##############################################################################
 ###########################################
 # Remove previous files #
@@ -38,11 +38,13 @@ echo "   UPLOADED BY  >>>>   EMIL_NABIL "
 sleep 4;
 	echo '========================================================================================================================='
 ###########################################                                                                                                                  
-echo ". >>>>         RESTARING     <<<<"
+echo ". >>>>     PLEASE RESTARING     <<<<"
 echo "**********************************************************************************"
 wait
-killall -9 enigma2
 exit 0
+
+
+
 
 
 
